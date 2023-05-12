@@ -153,4 +153,60 @@
 
 
 
+  .section-app {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px
+
+  }
+
+
+  .container-app-productor {
+   display: flex;
+   padding: 20px;
+   margin: 20px;
+   justify-content: center;
+  }
+
+
+
+  .container-app-transportista {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    justify-content: center;
+  }
+
+
+  .section-text-app {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+
+  }
+
+
+  /* Mobile */
+  @media (max-width: 468px) {
+    .section-text-app {
+      flex-wrap: wrap;
+    }
+    .container-app-productor .container-app-transportista img{
+      max-width: 100%;
+    }
+  }
   
+  /* Desktop */
+    @media (min-width: 968px) {
+      .container-app-productor .container-app-transportista img {
+      max-width: 300px;
+    }
+  }
+
+
+  .div-contenedor-app {
+    display: flex;
+    padding: 20px;
+  }
