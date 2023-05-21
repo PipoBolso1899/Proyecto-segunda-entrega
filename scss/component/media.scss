@@ -1,0 +1,126 @@
+  // Mobile index
+      
+  @media screen and (max-width: 468px) {
+
+            
+    .section-container {
+        .div-container {
+            flex-wrap: wrap;
+            max-width: 100%;
+         
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+
+
+    .benefits-section{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+}
+
+// Mobile app
+
+@media screen and (max-width:468px) {
+
+    .section-text-app {
+        flex-wrap: wrap;
+        max-width:100%
+        p{
+
+          }  .section-app{
+
+                .container-app-productor{
+                    max-width: 100%;
+                    h2{
+
+                    }
+                    img{
+                        max-width: 100%;
+                    }
+                } .container-app-transportista{
+                    max-width: 100%;
+                    h2{
+
+                    }
+                    img{
+                        max-width: 100%;
+                    }
+                }
+            
+        }
+    }
+    
+}
+
+
+
+// Mobile Servicios
+
+@media screen and (max-width:468px) {
+   
+    .div-contenedor-app{
+        flex-wrap: wrap;
+        max-width: 100%;
+
+        li {
+            max-width: 100%;
+        }
+    }
+
+}
+
+
+
+// Mobile Nosotros
+
+@media screen and (max-width:468px) {
+
+    .section-nosotros { 
+        flex-wrap: wrap;
+        max-width: 100%;
+        p{
+            max-width: 100%;
+        }
+    }
+
+}
+
+    
+// Mobile Sector
+
+@media screen and (max-width:468px) {
+
+    .sector-section-container {
+        flex-wrap: wrap;
+        max-width: 100%;
+        .sector-text-container{
+            max-width: 100%;
+            p{
+
+            }
+        } 
+        .sector-productor{
+
+        }
+    }
+
+    .industria-container {
+        flex-wrap: wrap;
+        max-width: 100%;
+        p{
+            .img-puerto{
+                max-width: 100%;
+            }
+        }
+    }
+
+
+}
+
+
+
+

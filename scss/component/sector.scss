@@ -1,0 +1,52 @@
+
+
+
+
+.sector-section-container{
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "img content";
+
+    
+
+
+    .sector-text-container{
+        background-color: $color-secondary;
+        grid-area: content;
+        margin: $margin-primary;
+        flex: 1;
+        padding: $padding-primary;
+
+
+        h2{
+
+            p{
+
+            }
+            .sector-productor{
+                display: flex;
+                grid-area: img;
+                width: 100%;
+                height: auto;
+                flex: 1;
+                max-width: 100%;
+
+
+            }
+        }
+    }
+}
+
+
+
+.industria-container {
+    p{
+        .img-puerto{
+
+        }
+    } 
+    p{
+
+    }
+}
