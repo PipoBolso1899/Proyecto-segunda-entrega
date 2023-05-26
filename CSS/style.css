@@ -4,8 +4,10 @@ body {
 
 .section-text-app {
   display: flex;
-  padding: 20px;
-  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 50px;
 }
 .section-text-app .section-app {
   display: flex;
@@ -129,6 +131,7 @@ header .bg-body- div ul li .nav-logo {
 }
 
 .section-presentacion .foto-pedro {
+  padding: 0 50px;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -166,6 +169,10 @@ header .bg-body- div ul li .nav-logo {
   max-width: 300px;
   height: auto;
   margin: 10px;
+}
+section {
+  padding: 0 50px;
+  margin-top: 10px;
 }
 section h2 p .div-contenedor-app {
   display: flex;

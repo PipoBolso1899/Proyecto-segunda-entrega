@@ -3,9 +3,14 @@ body {
 }
 
 .section-text-app {
+    //display: flex;
+    //padding: 20px;
+    //width: 100%;
     display: flex;
-    padding: 20px;
-    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 50px;
 
     .section-app {
         display: flex;
