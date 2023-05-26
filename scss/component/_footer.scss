@@ -1,31 +1,19 @@
-
-
-
-
 footer {
     background-color: $color-primary;
-  
-        nav{
 
-          
-                
-                .footer-container {
-                    display: flex;
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                    justify-content: flex-end;
+    nav {
+        .footer-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-end;
 
-                        li{
-
-                            max-width: 200px;
-                            list-style-type: none;
-                            padding: $padding-secondary;
-                            margin: $margin-secondary;
-
-                        }
-                }
-
-            
+            li {
+                max-width: 200px;
+                list-style-type: none;
+                padding: $padding-secondary;
+                margin: $margin-secondary;
+            }
         }
-
+    }
 }

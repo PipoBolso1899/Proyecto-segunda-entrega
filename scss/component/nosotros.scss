@@ -1,11 +1,15 @@
+.section-nosotros {
+    padding: 0 40px;
+}
 
-
-
-
-
-.section-nosotros{
-
-    p{
-
+.section-presentacion {
+    .foto-pedro {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 10px;
+        
     }
 }

@@ -1,46 +1,56 @@
-
+body {
+    overflow-x: hidden;
+}
 
 .section-text-app {
     display: flex;
     padding: 20px;
-    margin: 20px;
     width: 100%;
 
-    
+    .section-app {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 20px;
+        flex-direction: column;
 
+        .container-app-productor {
+            display: flex;
+            padding: 10px;
+            margin: 10px;
+            justify-content: center;
+            flex-direction: column;
 
-            p{
-
-                .section-app{
-                    
-                    display: flex;
-                    justify-content: center;
-                    width: 100%;
-                    margin: 20px;
-                
-
-                    .container-app-productor{
-                        display: flex;
-                        padding: 20px;
-                        margin: 20px;
-                        justify-content: center;
-                        
-                        
-                        h2{
-
-                        }
-                    } .container-app-transportista{
-                        display: flex;
-                        padding: 20px;
-                        margin: 20px;
-                        justify-content: center;
-
-                       
-                          
-                    } h2{
-
-
-                    }
-                }
+            h2 {
             }
+            img {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                max-width: 300px;
+                height: auto;
+                margin: 10px;
+            }
+        }
+
+        .container-app-transportista {
+            display: flex;
+            padding: 10px;
+            margin: 10px;
+            justify-content: center;
+            flex-direction: column;
+
+            h2 {
+                display: flex;
+            }
+            img {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                max-width: 300px;
+                height: auto;
+                margin: 10px;
+            }
+        }
+    }
 }
